@@ -1,0 +1,73 @@
+.all
+{
+    background-color:rebeccapurple;
+}
+.toppest
+{
+    background-color:purple;
+  
+    display: flex;
+    justify-content: space-between;
+}
+.middle
+{
+    display: flex;
+    justify-content: space-between;
+}
+.items
+{
+    
+    border-radius: 10px;
+    background-color:ivory;
+   padding: 5px;
+    margin: 13px;
+    width:300px;
+    font-family: fantasy;
+}
+
+.anothermiddle
+{
+    display: flex;
+    justify-content: space-between;
+}
+.item
+{
+    
+    border-radius: 10px;
+    background-color:ivory;
+   padding: 5px;
+    margin: 13px;
+    width:300px;
+    font-family: fantasy;
+}
+
+a:link
+{
+color:orangered
+}
+a:visited
+{
+color:wheat
+}
+.navigation *
+{
+    justify-content: space-between;
+    border: solid;
+
+}
+.navigation:hover a
+{
+   opacity: 2;
+   padding: 20px;
+   margin: 20px;
+
+}
+.item:hover{
+    
+    transform: scale(1.2);
+}
+.items:hover{
+    
+    transform: scale(1.2);
+}
+

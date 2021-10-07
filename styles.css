@@ -1,0 +1,58 @@
+.all
+{
+    background-color:teal
+    ;
+}
+.top
+{
+background-color:thistle;
+display: flex;
+justify-content: space-between;
+}
+.middle
+{
+    display: flex;
+    justify-content: space-between;
+}
+.anothermiddle
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    color: coral;
+    text-align: center;
+}
+.para
+{
+    color :cornflowerblue;
+    text-align: center;
+}
+.item
+{
+    border-radius: 5px;
+    background-color:ivory;
+   padding: 10px;
+    margin: 13px;
+    width:300px;
+    font-family: fantasy;
+}
+.items
+{
+    border-radius: 5px;
+    background-color:ivory;
+    justify-content: space-around;
+   padding: 10px;
+    margin: 13px;
+    width:300px;
+    font-family: fantasy;
+}
+.item:hover{
+    
+    transform: scale(1.2);
+}
+.items:hover{
+    
+    transform: scale(1.2);
+}
